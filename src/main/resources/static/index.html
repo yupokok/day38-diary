@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Dear Diary...</h1>
+    <form method="POST" action="/diary" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td></td>
+                <td><button>See All Entries</button></td>
+                <td><button>Image Gallery</button></td>
+            </tr>
+        </table>
+        <table>
+
+            <hr>
+            <tr>
+                <td>Entry Title:</td>
+                <td><input type="text" name="title" id=""></td>
+            </tr>
+            <tr>
+                <td>Date:</td>
+                <td><input type="date" name="date" id=""></td>
+            </tr>
+            <tr>
+                <td>Text:</td>
+                <td><textarea name="text" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Mood:</td>
+                <td><input type="color" name="mood" id=""></td>
+            </tr>
+            <tr>
+                <td>Image Upload:</td>
+                <td><input type="file" name="image" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Add Entry</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
